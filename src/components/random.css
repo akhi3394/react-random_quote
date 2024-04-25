@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    background: linear-gradient(to right, #b5a19828, #6c39399c);
+}
+
+
+.random-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+  
+  }
+  
+  .quote {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+    background: linear-gradient(250deg,#c73232bf 10%,#514581ae 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+  }
+  
+  .author {
+    font-size: 1rem;
+    font-style: italic;
+    margin-bottom: 30px;
+    font-weight: 600;
+    
+  }
+  
+  .new-quote-btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background-color: #538254bb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .new-quote-btn:hover {
+    background-color: #0ca243cb;
+  }
+
+  .card {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+  
